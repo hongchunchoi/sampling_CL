@@ -214,7 +214,7 @@ for t in range(tasknum) :
     train_cumulative_output_list.append(myTrainer.cumulative_training_acc)
     train_cumulative_target_list.append(myTrainer.cumulative_training_target)
 
-
+    a = 1
 '''
 for i in range(args.step_size):
     trainer.beforeTrain()
